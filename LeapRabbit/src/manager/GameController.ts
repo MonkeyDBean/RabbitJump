@@ -297,7 +297,7 @@ class GameController
         GameView.m_UI.myPlayerScore.text = GameController.getInstance().data["originalScore"].toString();
 
         //生命重置为初始10的状态
-        this.myPlayer.playerLife = 1;
+        this.myPlayer.playerLife = 10;
         GameView.m_UI.life_num.text = this.myPlayer.playerLife.toString();
         if(this.myMapThird.y>this.myMap.y)
         {

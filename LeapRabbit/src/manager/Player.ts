@@ -134,7 +134,7 @@ class Player extends eui.Group{
         this.distanceY = 0;
         this.directionY = -1;
         this.jumpStage = 0;
-        this.playerLife = 1;
+        this.playerLife = 10;
         this.addMyTimeListener();
     }
 
