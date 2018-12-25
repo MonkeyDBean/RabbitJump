@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EndSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="pic_startbBg" x="0" y="0"/>
+	<e:Image source="pic_rankBg" x="9" y="13"/>
+	<e:Label text="RabbitJump Game" x="74" y="271" size="36" width="497" height="49" bold="true" textAlign="center" verticalAlign="middle"/>
+	<e:Image id="tryAgain_button" source="pic_tryAgain" x="56" y="847"/>
+	<e:Image id="moreGame_button" source="pic_moreGame" x="362" y="847"/>
+	<e:Label id="group_CurScore" text="10000" x="327" y="36" verticalAlign="middle" textAlign="center" size="32" width="106"/>
+	<e:Label id="shareText" y="523" text="分享到 :" textAlign="center" width="154" size="36" x="72"/>
+	<e:Image source="qq" y="612" x="201" width="98" height="111" id="qq_Icon"/>
+	<e:Image source="txWeibo" y="619" x="336" width="100" height="100" id="txWeibo_Icon"/>
+	<e:Image source="xinlang" y="615" x="70" width="100" height="100" id="xinlang_Icon"/>
+	<e:Image id="erweima_Icon" source="game_erweima" x="472" y="619" width="100" height="100"/>
+	<e:Label id="authorText" y="398" height="64" text="Author : MonkeyBean" textAlign="center" bold="true" width="401" size="36" x="124"/>
+</e:Skin>
