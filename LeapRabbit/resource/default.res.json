@@ -5,42 +5,10 @@
 		"name":"preload"
 	},
 	{
-		"keys":"loading_bg,loading_text,logo_left,logo_right,api,advert",
+		"keys":"loading_bg,loading_text",
 		"name":"loading"
 	}],
 	"resources":[
-	{
-		"name":"api",
-		"type":"json",
-		"url":"http://www.fcbrains.com/games/family/json/api.json"
-	},
-	{
-		"name":"advert",
-		"type":"json",
-		"url":"http://www.fcbrains.com/games/family/json/advert.json"
-	},
-	{
-		"name":"loading_bg",
-		"type":"image",
-		"url":"http://www.fcbrains.com/games/family/loading/loading_bg.jpg"
-	},
-	{
-		"name":"loading_text",
-		"subkeys":"1,2,3,a,d,g,i,l,n,o",
-		"type":"sheet",
-		"url":"http://www.fcbrains.com/games/family/loading/loading_text.json"
-	},
-	{
-		"name":"logo_left",
-		"subkeys":"logo_ani_0,logo_ani_1,logo_ani_10,logo_ani_11,logo_ani_12,logo_ani_13,logo_ani_14,logo_ani_15,logo_ani_16,logo_ani_17,logo_ani_18,logo_ani_19,logo_ani_2,logo_ani_20,logo_ani_21,logo_ani_22,logo_ani_23,logo_ani_3,logo_ani_4,logo_ani_5,logo_ani_6,logo_ani_7,logo_ani_8,logo_ani_9",
-		"type":"sheet",
-		"url":"http://www.fcbrains.com/games/family/loading/logo_left.json"
-	},
-	{
-		"name":"logo_right",
-		"type":"image",
-		"url":"http://www.fcbrains.com/games/family/loading/logo_right.png"
-	},
 	{
 		"name":"checkbox_select_disabled_png",
 		"type":"image",
